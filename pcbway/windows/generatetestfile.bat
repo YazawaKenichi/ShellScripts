@@ -23,3 +23,6 @@ copy nul %STR%8.gto
 rem echo file "%STR%8.gto" is Generated
 
 endlocal
+
+rem Bibliography
+rem https://www.softel.co.jp/blogs/tech/archives/4596

@@ -5,6 +5,8 @@ setlocal
 
 set /p STR="NEWNAME:"
 
+fsutil file SetCaseSensitiveInfo ./ enable
+
 echo ./*.drl -> %STR%.TXT
 move *.drl %STR%.TXT
 echo ./*.gbl -> %STR%.GBL
@@ -21,6 +23,10 @@ echo ./*.gts -> %STR%.GTS
 move *.gts %STR%.GTS
 echo ./*.gto -> %STR%.GTO
 move *.gto %STR%.GTO
+
+del *.drl *.gbl *.gbs *.gbo *.gm1 *.gtl *.gts *.gto
+
+fsutil file SetCaseSensitiveInfo ./ disable
 
 endlocal
 
