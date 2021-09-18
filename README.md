@@ -17,7 +17,7 @@ $ chmod +x pcbway.sh
 #### Linux
 ##### pcbway.sh
 [reRoWiKi の PCBWay の拡張子変更の項目](https://wiki.rero.tiryoh.com/shopping/how-to-buy/PCBWay#拡張子の変更)でいちいちリネームするのが面倒くさかったから自動リネーム＋拡張子変更まで行ってくれるシェルスクリプトを作った。
-```NEWNAME```　が聞かれたら、リネームしたい新しい名前（Wiki にで言うと "robotrace_sensorV3"）を入力する。
+```NEWNAME```　が聞かれたら、リネームしたい新しい名前（Wiki で言うと "robotrace_sensorV3"）を入力する。
 すると自動でリネーム＋拡張子の変更まで行ってくれる。
 エラーは今のところ一切考慮していないので注意が必要。
 想定されるエラー（以下の条件で実行実験していないため、実際にどういう挙動をするかは不明）
