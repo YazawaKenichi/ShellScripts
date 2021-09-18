@@ -1,6 +1,7 @@
 # ShellScripts
 
-#### 基礎
+### 基礎
+#### Linux
 シェルスクリプトを実行する前に権限を与えておく必要がある。
 ```
 $ chmod +x <ShellScriptName>
@@ -9,6 +10,8 @@ $ chmod +x <ShellScriptName>
 ```
 $ chmod +x pcbway.sh
 ```
+#### Windows
+特に権限を与える必要はない。そのまま行ける。
 
 ### PCBWay
 #### Linux
