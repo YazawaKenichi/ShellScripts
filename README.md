@@ -13,6 +13,9 @@ $ chmod +x pcbway.sh
 #### Windows
 特に権限を与える必要はない。そのまま行ける。
 
+MacOS？知らないねぇ、そんなものはぁ...
+
+
 ### PCBWay
 #### Linux
 ##### pcbway.sh
