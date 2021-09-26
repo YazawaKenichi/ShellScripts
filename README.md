@@ -39,5 +39,5 @@ del コマンド実行時に drl が見つかりませんでした。と出る�
 大文字と小文字の区別はスクリプト実行時に有効にしているが、終了前に無効に戻している。区別を切り替えるコマンドは ```fsutil file SetSensitiveInfo``` を使用しているため、実行するフォルダは NTFS でフォーマットされている必要がある。C: ドライブ内にあれば確実だが、外部記憶装置に ```clone``` する場合は、そのフォーマットを NTFS にするか、C: ドライブにコピー・移動する必要がある。
 
 ##### generatetestfile.bat
-pcbway.sh の Windows Batch File 版。つまりこっちは Windows で使える。
+generatetestfile.sh の Windows Batch File 版。つまりこっちは Windows で使える。
 Windows の性質上、空ファイルの生成方法が ```copy nul <filename>``` と、Null をコピーしてくる形になってしまうので、処理時の出力が ```1 個のファイルをコピーしました。``` になってしまうが、ちゃんと模擬製造ファイルを出力できている。
