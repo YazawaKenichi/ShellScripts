@@ -10,6 +10,12 @@ $ chmod +x <ShellScriptName>
 ```
 $ chmod +x pcbway.sh
 ```
+コマンドにするときは任意の自作コマンド保存用ディレクトリを作成してパスを通す。
+```
+$ mkdir /mybin
+$ sudo mv ./hogehoge.sh /mybin/hogehoge
+$ sudo chmod +x /mybin/hogehoge
+```
 #### Windows
 特に権限を与える必要はない。そのまま行ける。
 
@@ -53,3 +59,6 @@ Windows で Pico の開発をするつもりはないので Bath 版を作るつ
 ### Build and Go
 ターミナルで動くソフトウェアをプログラムしているときに、gcc hogehoge して ./a.out するのがクッソ面倒くさかったから sh にした。
 ファイル名を指定して自動でファイル探索して実行までできるようにしたい。（今はそれどころじゃない）
+
+### soiya
+永遠にソイヤし続けるコマンド
