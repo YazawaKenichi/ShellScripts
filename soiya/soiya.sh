@@ -4,9 +4,9 @@
 
 while true
 do
-    echo -n -e "\r\033[31m\033[1m SOIYA! L(‘ω’)┘ "
+    echo -n -e "\r\033[31m\033[1m SOIYA! L(‘ω’)┘ \033[0m"
     sleep 0.5
-    echo -n -e "\r\033[34m\033[1m SOIYA! └(‘ω’)」"
+    echo -n -e "\r\033[34m\033[1m SOIYA! └(‘ω’)」 \033[0m"
     sleep 0.5
 done
 echo -n -e "\033[0m"
