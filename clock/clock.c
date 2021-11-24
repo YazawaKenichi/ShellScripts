@@ -4,7 +4,14 @@
 #include <GL/glut.h>
 #include <math.h>
 
+typedef struct 
+{
+    int X;
+    int Y;
+} WindowSize;
+
 static const double R = 0.9;
+static const WindowSize WINDOWSIZE = {300, 300};
 
 unsigned short int hour;
 unsigned short int min;
@@ -62,7 +69,7 @@ void display(void)
     glLineWidth(3.0);
     glColor3f(1, 0.25, 0.25);
     glBegin(GL_LINES);
-    theta = -1 * min * 2 * M_PI / 60 + M_PI / 2;
+    theta = -1 * min * 2 * M_PI / 60 + M_PI / 2 + ((theta - M_PI / 2) / 60);    // 初めの二項で分針がカクカク動く。最後の()でくくられた一項があることで、分針が秒針に依存して滑らかに動く。
     glVertex2d(r * cos(theta), r * sin(theta));
     glVertex2d(0, 0);
     glEnd();
@@ -71,7 +78,7 @@ void display(void)
     glLineWidth(5.0);
     glColor3f(1, 0.25, 0.25);
     glBegin(GL_LINES);
-    theta = -1 * hour * 2 * M_PI / 12 + M_PI / 2;
+    theta = -1 * hour * 2 * M_PI / 12 + M_PI / 2 + ((theta - M_PI / 2) / 60);   // こちらも最後の項が時針を滑らかに動くようにしている。
     r = r * 0.75;
     glVertex2d(r * cos(theta), r * sin(theta));
     glVertex2d(0, 0);
@@ -86,13 +93,19 @@ void timer(int hogehoge)
     glutTimerFunc(1, timer, 0);
 }
 
+void reshape()
+{
+    glutReshapeWindow(WINDOWSIZE.X, WINDOWSIZE.Y);
+}
+
 int main(int argc, char *argv[])
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGBA);
+    glutInitWindowSize(WINDOWSIZE.X, WINDOWSIZE.Y);
     glutCreateWindow("Clock");
-    glutInitWindowSize(720, 720);
 
+    glutReshapeFunc(reshape);
     glutDisplayFunc(display);
     glutTimerFunc(1, timer, 0);
     glutMainLoop();
