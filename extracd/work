@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -d "$WORK" ] ; then
+    echo -n -e "cd $WORK"
+    cd $WORK
+fi
+

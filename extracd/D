@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -d "$SD" ] ; then
+    echo -n -e "cd $SD"
+    cd $SD
+fi
+
