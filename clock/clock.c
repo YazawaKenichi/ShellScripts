@@ -90,7 +90,7 @@ void display(void)
 void timer(int hogehoge)
 {
     glutPostRedisplay();
-    glutTimerFunc(1, timer, 0);
+    glutTimerFunc(200, timer, 0);
 }
 
 void reshape()
@@ -103,11 +103,11 @@ int main(int argc, char *argv[])
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGBA);
     glutInitWindowSize(WINDOWSIZE.X, WINDOWSIZE.Y);
-    glutCreateWindow("Clock");
+    glutCreateWindow("Clock v1.3");
 
     glutReshapeFunc(reshape);
     glutDisplayFunc(display);
-    glutTimerFunc(1, timer, 0);
+    glutTimerFunc(0, timer, 0);
     glutMainLoop();
 
     return 0;
