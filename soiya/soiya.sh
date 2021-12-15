@@ -3,36 +3,41 @@
 # THE NOM FACE の AA
 THENOMFACE () {
     echo -e "
-           ⬛⬛⬛⬛⬛⬛⬛  ⬛         ⬛  ⬛⬛⬛⬛⬛⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛⬛⬛⬛⬛⬛   ⬛⬛⬛⬛⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛         ⬛  ⬛
-                 ⬛        ⬛         ⬛  ⬛⬛⬛⬛⬛⬛
-
-            ⬛⬛    ⬛     ⬛⬛⬛⬛    ⬛⬛       ⬛⬛
-            ⬛⬛    ⬛   ⬛⬛   ⬛⬛   ⬛⬛       ⬛⬛
-            ⬛ ⬛   ⬛  ⬛⬛     ⬛⬛  ⬛⬛       ⬛⬛
-            ⬛  ⬛  ⬛  ⬛         ⬛  ⬛ ⬛    ⬛  ⬛
-            ⬛  ⬛  ⬛  ⬛         ⬛  ⬛  ⬛  ⬛   ⬛
-            ⬛   ⬛ ⬛  ⬛         ⬛  ⬛  ⬛  ⬛   ⬛
-            ⬛    ⬛⬛  ⬛⬛     ⬛⬛  ⬛  ⬛⬛⬛   ⬛
-            ⬛    ⬛⬛   ⬛⬛   ⬛⬛   ⬛   ⬛⬛    ⬛
-            ⬛      ⬛     ⬛⬛⬛⬛    ⬛    ⬛     ⬛
-
-                   ⬛
- ⬛⬛⬛⬛⬛⬛     ⬛⬛       ⬛⬛⬛⬛⬛   ⬛⬛⬛⬛⬛⬛
- ⬛              ⬛  ⬛     ⬛⬛      ⬛  ⬛
- ⬛             ⬛    ⬛    ⬛            ⬛
- ⬛            ⬛      ⬛   ⬛            ⬛
- ⬛⬛⬛⬛⬛   ⬛        ⬛  ⬛            ⬛⬛⬛⬛⬛
- ⬛           ⬛⬛⬛⬛⬛⬛  ⬛            ⬛
- ⬛           ⬛        ⬛  ⬛            ⬛
- ⬛           ⬛        ⬛  ⬛⬛      ⬛  ⬛
- ⬛           ⬛        ⬛   ⬛⬛⬛⬛⬛   ⬛⬛⬛⬛⬛⬛
+                                MMMMMMMMMMMMMMM[ (MMM]       MMM#   .MMMMMMMMMMMMMM~                                 .             
+                                HMMMMMMMMMMMMMM\ (MMM]       MMM#   .MMMMMMMMMMMMMM~                      ...+++++J-.dMNl..           
+                                     .MMM@       (MMM]       MMM#   .MMM@                             .JNMMMMMMMMMMMMMMMMNgdN,            
+                                     .MMM@       (MMM]       MMM#   .MMM@                         ..dMMMMMMMMMMMMMMMMMMMMMMMMNa.    
+                                     .MMM@       (MMMMMMMMMMMMMM#   .MMMMMMMMMMMMM[       ...., .&MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNm.   
+                                     .MMM@       (MMMMMMMMMMMMMM#   .MMMMMMMMMMMMM\     .MMMMBNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm.      
+                                     .MMM@       (MMM]       MMM#   .MMM@               .MMF.MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN,   
+                                     .MMM@       (MMM]       MMM#   .MMM@               .MM(MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN;
+                                     .MMM@       (MMM]       MMM#   .MMMNJ(((((((((,    dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMp    
+                                     .MMM@       (MMM]       MMM#   .MMMMMMMMMMMMMM]   .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM_
+                                                                                       (MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM!    
+                                                 ......                               .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM!
+                       .MMMNe      -MMM~     ..NMMMMMMMMNJ      JMMMMMb      dMMMMM}  .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM[
+                       .MMMMMp     (MMM~    .MMMMB\"77TWMMMN&    JMMMMMN,    .MMMMMM}  ,MMMMMMMMMM#B\"=??~.MMMMMMMMMMMMMMMMMMMMMMMMMMMMM#    
+                       .MMMMMMb.   (MMM~   (MMM@       .WMMM[   JMMMMMMb    dMMMMMM}  ,MMMMMMMMMF  ...MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#
+                       .MMMMMMMN.  (MMM~  .MMM#         .MMMN.  JMMMvMMN<  .MMFJMMM}   ,MMMMM^\"TMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM=
+                       .MMMb(MMMN, (MMM~  (MMMP          dMMM}  JMMM:dMMR  dMM\JMMM}   ,TMMMF   ,WM\"\"\"\"THMMMMMMMMMMMMMMMMMMMMMMMMMMM\"!
+                       .MMMb .MMMN,(MMM~  (MMMP          dMMM}  JMMM:.MMM<.MM# JMMM}   MMDdM\    ..JdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN
+                       .MMMb   WMMMgMMM~  ,MMMN.        .MMMM   JMMN! dMMNdMM% (MMM}    D.gM:   .  .dMMMMMMMM# .MMMMMMMMMMMMMMMMMMMMp
+                       .MMMb    TMMMMMM~   ZMMMm.      .dMMMD   JMMN! ,MMMMM#  (MMN}     ,M#        \"TM\"WMMMF    MMMMMMMMMMMMMMMMMMMN,   
+                       .MMMb     ?MMMMM~    ?MMMMNJ..(gMMMM=    JMMN~  dMMMMt  (MMM}     (M~           .MMMF     jMMMMMMMMMMMMMMMMMMMm
+                       .MMMb      /MMMM~      TMMMMMMMMM#\"      JMMN~  (MMM#   (MMM}                ..gMMM}       MMMMMMMMMMMMMMMMMMMF
+                                                                                                  .JMMMMM#       .MMMMMMMMMMMMMMMMMMY
+                                                                                                 .MMMMMMMNJ(JJJdMMMMMMMMMMMMMMMM#
+              .ggggggggggggm        (gggx           ..+gMMMNaa,     .gggggggggggggg.            .MMMMMMMM@7??YMMMMMMMMMMMMMMMMMM#        
+              (MMMMMMMMMMMM#       .MMMMN,        .JMMMMMMMMMMMN,   .MMMMMMMMMMMMMM~            .MMMMMMMo...-(JMMMMMMMMMMMMMMMMM#     
+              (MMM]               .MMMMMMN.      .dMMM=     (MMMM,  .MMM@                          7MMMMMMM\"TT9T@\"TMMMMMMMMMMMM#    
+              (MMM]               dMM@(MMMb      dMMM\       .!     .MMM@                           (MMMMM#!    .. dMMMMMMMMMMMN.
+              (MMMm.......,      (MM#: JMMM[     MMM#               .MMMNNgNNNNNNN;                 JMMM_ _7(n..(x.MMMMMMMMMMMM#      
+              (MMMMMMMMMMMb     .MMMF   dMMN,   .MMMN               .MMMMMMMMMMMMM%                  UMM,   .m....(MMMMMMMMMMM@     
+              (MMMF            .dMMMgggggMMMN.   MMMM.       .,     .MMM@                                  (MMMMMMMMMMMMMMMMM           
+              (MMM]            JMMMMMMMMMMMMMb   ?MMMb.      jMMN\  .MMM@                                   .TMMMMMMMMMMMMM=               
+              (MMM]           .MMMF       WMMM[   ?MMMNa...(MMMMF   .MMMN..........,                        .+MMMMMMMMMM9!            
+              (MMM]          .MMM#        .MMMN,    TMMMMMMMMMB^    .MMMMMMMMMMMMMM]                       (\"MMMMMMMM9!                 
+              .777           ?777!         (777^       _?77!         ?7777777777777                             !!                        
 "
 }
 
@@ -70,7 +75,11 @@ do
         n)
             THENOMFACE
             ;;
-        "" | *)
+        "")
+            mplayer /ybin/media/soiya.mp3 >& /dev/null &
+            THENOMFACE
+            ;;
+        *)
             HELP
             ;;
     esac
