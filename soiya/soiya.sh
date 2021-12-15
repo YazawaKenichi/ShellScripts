@@ -51,6 +51,7 @@ HELP () {
     ソイヤコマンド 有効なオプション
     -a  Sound Effect SOIYA!
     -e  Emotional SOIYA!
+    -k  いや～ノムさんの、ｹﾂｱﾅｧ...
     -n  THE NOM FACE
 "
 }
@@ -79,6 +80,9 @@ else
                 ;;
             n)
                 THENOMFACE
+                ;;
+            k)
+                mplayer /ybin/media/ketsu.mp3 >& /dev/null &
                 ;;
             h  | *)
                 HELP
