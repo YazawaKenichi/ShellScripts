@@ -61,7 +61,7 @@ if [ $# -eq 0 ]; then
     THENOMFACE
     exit 1
 else
-    while getopts aen optKey >& /dev/null
+    while getopts aekn optKey >& /dev/null
     do
         case "$optKey" in
             a)
@@ -78,11 +78,11 @@ else
                 sleep 0.5
                 done
                 ;;
+            k)
+                mplayer /ybin/media/ketsuana.mp3 >& /dev/null &
+                ;;
             n)
                 THENOMFACE
-                ;;
-            k)
-                mplayer /ybin/media/ketsu.mp3 >& /dev/null &
                 ;;
             h  | *)
                 HELP
