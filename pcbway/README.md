@@ -1,7 +1,7 @@
 ## 例の面倒くさいリネームを自動で行ってくれるスクリプト<br>
 
-Windows で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/windows)<br>
-Linux で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/linux)<br>
+Windows で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/pcbway.bat)<br>
+Linux で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/pcbway.sh)<br>
 
 ### ファイルの説明
 pcbway.bat pcbway.sh<br>
