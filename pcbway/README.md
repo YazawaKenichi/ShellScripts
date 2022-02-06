@@ -3,7 +3,7 @@
 Windows で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/pcbway.bat)<br>
 Linux で kicad を使っている人は [こっち](https://github.com/YazawaKenichi/ShellScripts/blob/main/pcbway/pcbway.sh)<br>
 
-### ファイルの説明
+### どんなファイル？
 pcbway.bat pcbway.sh<br>
 PCBway で注文するときに、<br>
 ハイフン以下拡張子以上を消す -> 拡張子を大文字にする -> 一部のファイルだけ拡張子を変更する<br>
