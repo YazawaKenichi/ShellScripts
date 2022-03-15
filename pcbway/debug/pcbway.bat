@@ -16,7 +16,7 @@ move %STR%-B_Mask.gbs %STR%.GBS
 echo %STR%-B_SilkS.gbo -> %STR%.GBO
 move %STR%-B_SilkS.gbo %STR%.GBO
 echo %STR%-Edge_Cuts.gm1 -> %STR%.GKO
-move %STR%-Edge_Cuts.gm1 %STR%.GKO
+move %STR%-Edge_Cuts.gm1.gm1 %STR%.GKO
 echo %STR%-F_Cu.gtl -> %STR%.GTL
 move %STR%-F_Cu.gtl %STR%.GTL
 echo %STR%-F_Mask.gts -> %STR%.GTS

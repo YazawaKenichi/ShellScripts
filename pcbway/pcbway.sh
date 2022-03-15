@@ -1,24 +1,24 @@
 #!/bin/bash
 
-echo -n NEWNAME:
+echo -n ProjectName:
 read STR
 
-echo ./*.drl -\> $STR.DRL
-mv *.drl $STR.TXT
-echo ./*.gbl -\> $STR.GBL
-mv *.gbl $STR.GBL
-echo ./*.gbs -\> $STR.GBS
-mv *.gbs $STR.GBS
-echo ./*.gbo -\> $STR.GBO
-mv *.gbo $STR.GBO
-echo ./*.gm1 -\> $STR.GKO
-mv *.gm1 $STR.GKO
-echo ./*.gtl -\> $STR.GTL
-mv *.gtl $STR.GTL
-echo ./*.gts -\> $STR.GTS
-mv *.gts $STR.GTS
-echo ./*.gto -\> $STR.GTO
-mv *.gto $STR.GTO
+echo $STR.drl -\> $STR.TXT
+mv $STR.drl $STR.TXT
+echo $STR-B_Cu.gbl -\> $STR.GBL
+mv $STR-B_Cu.gbl $STR.GBL
+echo $STR-B_Mask.gbs -\> $STR.GBS
+mv $STR-B_Mask.gbs $STR.GBS
+echo $STR-B_SilkS.gbo -\> $STR.GBO
+mv $STR-B_SilkS.gbo $STR.GBO
+echo $STR-Edge_Cuts.gm1 -\> $STR.GKO
+mv $STR-Edge_Cuts.gm1 $STR.GKO
+echo $STR-F_Cu.gtl -\> $STR.GTL
+mv $STR-F_Cu.gtl $STR.GTL
+echo $STR-F_Mask.gts -\> $STR.GTS
+mv $STR-F_Mask.gts $STR.GTS
+echo $STR-F_SilkS.gto -\> $STR.GTO
+mv $STR-F_SilkS.gto $STR.GTO
 
 # Bibliography
 # https://eng-entrance.com/linux-shellscript-keyboard
