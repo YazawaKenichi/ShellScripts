@@ -2,6 +2,9 @@
 if [ -n "$1" ]; then
     NAME=${1%.*}    # 拡張子なしファイル名を抽出する。
 
+    REMOVE=0
+    EXECUTE=0
+
     echo "rm -rf $NAME.out"
     rm -rf $NAME.out
 
@@ -12,18 +15,26 @@ if [ -n "$1" ]; then
                 echo "gcc $NAME.c -o $NAME.out -lglut -lGL -lm $2 $3 $4 $5"
                 gcc $NAME.c -o $NAME.out -lglut -lGL -lm $2 $3 $4 $5
                 echo ".$NAME.out"
-                ./$NAME.out
-                echo "rm -rf $NAME.out"
-                rm -rf $NAME.out
+                if [ $EXECUTE -eq 1 ]; then
+                    ./$NAME.out
+                fi
+                if [ $REMOVE -eq 1 ]; then
+                    echo "rm -rf $NAME.out"
+                    rm -rf $NAME.out
+                fi
                 exit
                 ;;
             *.cpp | *.Cpp | *.CPP)
                 echo "g++ $NAME.cpp -o $NAME.out -lglut -lGL -lm $2 $3 $4 $5"
                 g++ $NAME.cpp -o $NAME.out -lglut -lGL -lm $2 $3 $4 $5
                 echo ".$NAME.out"
-                ./$NAME.out
-                echo "rm -rf $NAME.out"
-                rm -rf $NAME.out
+                if [ $EXECUTE -eq 1 ]; then
+                    ./$NAME.out
+                fi
+                if [ $REMOVE -eq 1 ]; then
+                    echo "rm -rf $NAME.out"
+                    rm -rf $NAME.out
+                fi
                 exit
                 ;;
             *)
@@ -47,18 +58,26 @@ else
                 echo "gcc $NAME.c -o $NAME.out -lglut -lGL -lm"
                 gcc $NAME.c -o $NAME.out -lglut -lGL -lm
                 echo ".$NAME.out"
-                ./$NAME.out
-                echo "rm -rf $NAME.out"
-                rm -rf $NAME.out
+                if [ $EXECUTE -eq 1 ]; then
+                    ./$NAME.out
+                fi
+                if [ $REMOVE -eq 1 ]; then
+                    echo "rm -rf $NAME.out"
+                    rm -rf $NAME.out
+                fi
                 exit
                 ;;
             *.cpp | *.Cpp | *.CPP)
                 echo "g++ $NAME.cpp -o $NAME.out -lglut -lGL -lm"
                 g++ $NAME.cpp -o $NAME.out -lglut -lGL -lm
                 echo ".$NAME.out"
-                ./$NAME.out
-                echo "rm -rf $NAME.out"
-                rm -rf $NAME.out
+                if [ $EXECUTE -eq 1 ]; then
+                    ./$NAME.out
+                fi
+                if [ $REMOVE -eq 1 ]; then
+                    echo "rm -rf $NAME.out"
+                    rm -rf $NAME.out
+                fi
                 exit
                 ;;
             *)
